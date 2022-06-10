@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  temperatureSensor:
+    image: yuntys/simulator
+    environment:
+      - SIM_PORT=${ENV_PORT}
+      - SIM_HOST=${ENV_HOST}
+      - SIM_NAME=TemperatureSensor_001
+      - SIM_PERIOD=1000
+      - SIM_TYPE=TemperatureSensor
+  pressureSensor:
+    image: yuntys/simulator
+    environment:
+      - SIM_PORT=${ENV_PORT}
+      - SIM_HOST=${ENV_HOST}
+      - SIM_NAME=PressureSensor_001
+      - SIM_PERIOD=1000
+      - SIM_TYPE=PressureSensor
+  flowSensor:
+    image: yuntys/simulator
+    environment:
+      - SIM_PORT=${ENV_PORT}
+      - SIM_HOST=${ENV_HOST}
+      - SIM_NAME=FlowSensor_001
+      - SIM_PERIOD=2500
+      - SIM_TYPE=FlowSensor

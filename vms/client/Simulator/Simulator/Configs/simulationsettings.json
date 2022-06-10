@@ -1,0 +1,9 @@
+﻿{
+        "ConnectionStrings": {
+                "SIM_NAME" : "temperature_sensor_001",
+                "SIM_PERIOD" : 1000,
+                "SIM_TYPE" : "TemperatureSensor",
+                "SIM_HOST" : "localhost",
+                "SIM_PORT" : 1883
+        }
+}

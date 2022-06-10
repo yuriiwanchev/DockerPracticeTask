@@ -1,0 +1,7 @@
+﻿{
+        "ConnectionStrings": {
+                "SIM_NAME" : "flow_sensor_001",
+                "SIM_PERIOD" : 1000,
+                "SIM_TYPE" : "FlowSensor"
+        }
+}
